@@ -6,10 +6,8 @@ import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import de.programmierin.revivegraves.block.ModBlocks;
 import de.programmierin.revivegraves.block.custom.GravestoneBlock;
-import de.programmierin.revivegraves.component.ModDataComponentTypes;
 import de.programmierin.revivegraves.entity.GravestoneBlockEntity;
 import de.programmierin.revivegraves.entity.ModBlockEntities;
-import de.programmierin.revivegraves.entity.ModEntities;
 import de.programmierin.revivegraves.item.ModItemGroups;
 import de.programmierin.revivegraves.item.ModItems;
 import net.minecraft.block.entity.BlockEntity;
@@ -80,7 +78,5 @@ public class ReviveGraves implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		ModDataComponentTypes.registerDataComponentTypes();
-		ModEntities.registerModEntities();
 	}
 }
